@@ -7,11 +7,57 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
+    <!-- container -->
     <form class="form-container">
+
         <div class="top-form">
-            
+            <h1>Modifier mon profil</h1>
         </div>
+
+        <!-- main-form -->
+        <div class="main-form">
+            <div>
+                <!-- label-top-container -->
+                <div class="label-top-container">
+                    <div class="label-first-container">
+                        <label for="lastname">Nom </label>
+                        <input type="text" name="name" id="lastname" required>
+                    </div>
+                    <div class="label-second-container">
+                        <label for="name">Prénom </label>
+                        <input type="text" name="name" id="name" required>
+                    </div>
+                </div>
+                <!-- end-label-top-container -->
+                
+                <!-- label-bot-container -->
+                <div class="label-bot-container">
+                    <div class="label-third-container">
+                        <label for="email">Email </label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div class="label-fourth-container">
+                        <label for="phone">Téléphone (mobile) </label>
+                        <input type="tel" name="phone" id="phone" required>
+                    </div>
+                </div>
+                <!-- end-label-bot-container -->
+            </div>
+
+            <div class="bio-container">
+                <div class="label-bio-container">
+                    <label for="bio">Bio </label>
+                    <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+        </div>
+        <!-- end-main-form -->
+
+        <div class="main-bot-form"></div>
+
+        <div class="bot-form"></div>
     </form>
+    <!-- end-container -->
     
 </body>
 </html>

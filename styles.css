@@ -14,6 +14,41 @@ body {
     font-family: 'roboto', sans-serif;
 }
 
+h1 {
+    font-weight: bold;
+    font-size: 24px;
+    color: #374151;
+    margin-bottom: 11px;;
+}
+
+/* COMPONENTS */
+
+label {
+    font-weight: normal;
+    font-size: 16px;
+    color: #374151;
+}
+
+input {
+    width: 297px;
+    height: 49px;
+    background: #fff;
+    border: 1px solid #D2D6DB;
+    border-radius: 6px;
+    box-sizing: border-box;
+    margin-top: 8px;
+}
+
+textarea {
+    width: 300px;
+    height: 150px;
+    background: #fff;
+    border: 1px solid #D2D6DB;
+    border-radius: 6px;
+    box-sizing: border-box;
+    margin-top: 8px;
+}
+
 /* container */
 
 .form-container {
@@ -22,6 +57,87 @@ body {
     background-color: #fff;
     box-shadow:  0px 4px 4px rgba(0, 0, 0, 0.1);
     border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-/* boxe du haut */
+/* top container */
+
+.top-form {
+    width: 58.688rem;
+    height: 5vh;
+    border-bottom: 1px solid #D7DBDF;
+    display: flex;
+    align-items: flex-end;
+    margin-top: 22px;
+}
+
+/* middle container */
+
+.main-form {
+    width: 58.688rem;
+    height: 174px;
+    display: flex;
+    margin-top: 31px;
+}
+
+.label-top-container,
+.label-bot-container {
+    width: 38.625rem;
+    height: 76px;
+    display: flex;
+}
+
+.label-first-container {
+    width: 50%;
+    height: 14vh;
+}
+
+.label-second-container {
+    width: 50%;
+    height: 14vh;
+    margin-left: 24px;
+}
+
+.label-third-container {
+    width: 50%;
+    height: 14vh;
+    margin-top: 25px;
+}
+
+.label-fourth-container {
+    width: 50%;
+    height: 14vh;
+    margin-top: 25px;
+    margin-left: 24px;
+}
+
+/* bio container */
+
+.bio-container {
+    width: 20.063rem;
+    height: inherit;
+}
+
+.label-bio-container {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 19px;
+}
+
+/* middle bot container */
+
+.main-bot-form {
+    width: 58.688rem;
+    height: 14vh;
+}
+
+/* bot conatiner */
+
+.bot-form {
+    width: 58.688rem;
+    height: 20vh;
+}
